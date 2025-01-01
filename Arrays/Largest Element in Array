@@ -1,0 +1,13 @@
+Aim : To find largest element in array 
+
+
+(Brute)
+Approach 1 : Sorting the Array of size n in ascending order  and Returning the last index element. 
+Time complexity: O(n*logn) 
+Space Complexity: O(n)
+
+
+(Better)
+Approach 2 : Using a max variable initialized to index 0 of array and update the variable max to the index element if found greater than the initialized max  during the traversing in array. 
+Time complexity: O(n) 
+Space Complexity: O(1)
