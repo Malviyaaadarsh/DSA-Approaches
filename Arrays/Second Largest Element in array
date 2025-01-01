@@ -1,0 +1,11 @@
+Aim : To find the second largest element in array 
+
+
+Case 1 : No Duplicate Element in Array 
+(Brute)
+Approach 1 : Sorting the array of size n  in ascending order and returning the last second index. 
+Edge Case : Return -1 in case array consist of 0 elements or a single element . 
+Time Complexity : O(n*logn) 
+Space Complexity : O(1) 
+
+
