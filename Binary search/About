@@ -1,0 +1,4 @@
+Binary Seach ->  like Searching a word in a dictionary. (Dividing Search Spaces in Halves and Checking)
+             -> Search Space must be in sorted order 
+             -> Time Complexity : O(log n) 
+             
