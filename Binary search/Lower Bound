@@ -1,0 +1,3 @@
+Lower Bound -> Smallest index which is greater than or equal to given value. 
+            -> Returns the size of search space if no element satisfy the condition.
+            -> lower bound of k is at index i if , a[i]>=k . 
