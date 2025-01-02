@@ -1,0 +1,18 @@
+Aim : To find an element 'target' in sorted array
+
+
+(brute)
+Approach 1: By performing linear search (Traversing the array of size n , and checking for target) 
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+
+Approach 2: (Iterative Implementation) By iterate through pointers at both ends (say low and high)  and checking the middle value ((high+low)/2) if
+it is greater equal or lesser than 'target', and thereby trimming down the search space towards the space which contains target. 
+Time Complexity: O(log n) 
+Space Complexity: O(1) 
+
+
+Approach 3: (Recursive Approach) Using the recursive functions to trim down the seach space in the above approach. 
+Time Complexity: O(log n) 
+Space Complexity: O(1) 
