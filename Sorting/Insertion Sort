@@ -1,0 +1,15 @@
+Insertion sort is one of the sorting techniques. 
+
+Time Complexity : O(n^2) in average and worst case , O(n) in best case 
+Space Complexity : O(1) 
+
+Golden Rule : Check adjacent Element and Place it in its  correct position 
+
+Approach : 
+To implement the Insertion Sort -
+
+from [0,n-1] , taking  index , and check if index>0 and element at index-1 is greater than index at j. 
+
+
+taking the outer loop  i from 0 to n-1 and assigning a var j equal to i . Checking while j>0 and simultaneously index 
+element at j-1 greater than index element at j , if found then swap them and decrementing j to next iteration . 
