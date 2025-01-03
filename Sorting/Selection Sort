@@ -1,0 +1,23 @@
+Selection sort is one of the sorting techniques used for sorting.
+with 
+Time Complexity: O(n^2) 
+Space Complexity: O(1)
+Golden Rule - Select Minimum and Swap 
+
+
+
+Approach : 
+for Example ,  We've to sort array of n elements. Then, approach to implement Selection sort is : 
+
+Swap at (index 0 and min element index) from [0,n-1] 
+Swap at (index 1 and min element index) from [1,n-1] 
+Swap at (index 2 and min element index) from [2,n-1] 
+.
+.
+.
+Swap at (index n-2 and min element index) from [n-2,n-1] 
+
+
+This can be done by running an outer loop i from 0 to n-1 , which contain a minimum variable assigned to i ,
+followed by inner loop j from 0 to n-1 which will check if any element is less than that on minimum index , if found , then assigned 
+the minimum variable to j followed by swapping of minimum index element and i index element in outer loop . 
