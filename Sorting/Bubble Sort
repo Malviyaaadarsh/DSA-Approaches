@@ -1,0 +1,27 @@
+Bubble Sort is one of the most common sorting method used for sorting. 
+
+Golden Rule : Pushes Maximum to Last index By Adjacent Swaps 
+(Check if adjacent elements are sorted or not , if not swap it with adjacent element)
+
+
+Approach : 
+The Approach to implement Bubble Sort is - 
+
+from [0,n-1] , swap adjacent if not sorted , till the largest element comes at last index i.e, [n-1] , fix the position of element at [1]
+from [0,n-2] , swap adjacent if not sorted , till the largest element comes at last index i.e, [n-2] , fix the position of element at [1]
+.
+.
+.
+from [0,1] , swap adjacent if not sorted , till the largest element comes at last index i.e, [1] , fix the position of element at [1] , Array is sorted 
+
+
+Implementation: 
+For Example ,  for array of size n 
+first we'll be running the outer loop i from last index n-1 to 1 and the inner loop  j from 0 to i-1 that 
+will check the condition if any index j of array is greater than index j+1 of array , if found then it will                        
+swap both indexes. 
+
+
+Complexity Analysis : 
+Time Complexity : O(n^2) for worst and average case , O(n) for best case (array is already sorted , so that we will break the loop)
+Space Complexity : O(1)
