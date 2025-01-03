@@ -19,5 +19,5 @@ Swap at (index n-2 and min element index) from [n-2,n-1]
 
 
 This can be done by running an outer loop i from 0 to n-1 , which contain a minimum variable assigned to i ,
-followed by inner loop j from 0 to n-1 which will check if any element is less than that on minimum index , if found , then assigned 
+followed by inner loop j from i+1 th index  to n-1 which will check if any element is less than that on minimum index , if found , then assigned 
 the minimum variable to j followed by swapping of minimum index element and i index element in outer loop . 
