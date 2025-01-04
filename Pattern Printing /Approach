@@ -1,0 +1,7 @@
+Approach for Pattern Printing (Base of logic Buiding) 
+
+
+Using nested loops ,
+we first declare outer loop for number of rows in pattern ,and
+inner loop for number of columns and we connect it to rows 
+as required in pattern by developing logic. 
