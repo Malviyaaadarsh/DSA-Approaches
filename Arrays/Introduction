@@ -1,0 +1,9 @@
+Points to ponder: 
+
+Arrays can store any particular data type elements . 
+
+The first index of any array have some random memory location which is followed by contiguous memory locations in next indexes of array. 
+
+If we define array locally , it will store garbage values by default , and in this case the max length of arraay is 10^6. 
+
+If we define array globally , it will store all elements as 0's and the max length of array in such caase is 10^7. 
