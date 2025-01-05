@@ -1,11 +1,19 @@
 Aim : To find the second largest element in array 
 
 
-Case 1 : No Duplicate Element in Array 
 (Brute)
 Approach 1 : Sorting the array of size n  in ascending order and returning the last second index. 
-Edge Case : Return -1 in case array consist of 0 elements or a single element . 
-Time Complexity : O(n*logn) 
+Edge Case 1 : Return -1 in case array consist of 0 elements or a single element . 
+Edge Case 2 : Check whether Last and Second last or other element are equal. If No return second last , 
+if yes return element from [n-2,0] the element not equal last element
+Time Complexity : O(n*logn) in first case , O(n*logn + n) in second case
 Space Complexity : O(1) 
 
 
+(Better)
+Approach 2 : Finding largest by first pass(taking largest as first index element and iterating array to see someone is larger than largest or not
+, if found , will assign that the largest ) , then if there are all positive intergers in array taking second largest as -1 and INT_MIN for negative values 
+, iterating through array and check if any element which is not equals to  largest , at the same time greater than seconsd largest . 
+If we found then the element is second largest element in array.
+
+Time Complexity : O(2n) for two passes
