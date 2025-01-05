@@ -1,3 +1,0 @@
-When a function call itself until a specified condition is met , then this is called recursion. 
-A Base Condition is used to stop the recursion and terminate the function. 
-A Recursion tree can be used to imagine the functioning of recursion in the program.
