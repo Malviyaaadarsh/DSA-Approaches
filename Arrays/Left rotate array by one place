@@ -1,0 +1,13 @@
+Aim :  Given an array , we have to left rotate the array by one place (shifting the ith index element to i-1th index.)
+
+(Brute)
+Approach  :  Using a duplicate array of same size for storing the values in rotated manner. 
+Shifting all values by 1 index , the 0th index to last index , and printing the array . 
+Time Complexity: O(n)
+Space Complexity: O(n) 
+
+(Optimal)
+Approach :  Declaring the 0th index a  variable (storing it in variable) , and iterating through the array i from [1,n-1] and 
+assigning the i-1 th index element equal too i th index element .Then assigning the n-1 th index element the  element , atlast returning the array at last. 
+Time Complexity: O(n)
+Space Complexity: O(1)
