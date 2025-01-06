@@ -1,0 +1,6 @@
+Suppose we have to iterate through an array an check the number of same specific element present in different indexes of array. If we have w numbers repeating j nummber of times , 
+then to find the count of them we require a time complexity of O(w*j). Suppose we have values of w and j as 10^6  , so the overall time complexity is O(10^12). Usually the coding platform 
+where we practise takes the time 1 second to perform 10^8 operations. 10^12 means extra 10^4 seconds , which is suc a long time to wait for our output. That's wy we use hashing . 
+
+
+Golden rule : Prestore and Fetch. 
