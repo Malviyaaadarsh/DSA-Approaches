@@ -1,0 +1,13 @@
+Aim: To find union of two sorted arrays and return union array . 
+
+
+Brute Force Approach : 
+
+Using a Set to store elements of both the arrays ( why set ? , it will not take duplicate elements and for the union it make sense).We  after storing , 
+will iterate the set and return it . 
+
+Things about the set : It should not be unordered map 
+The size of the set will be the size of our union array. (Let n)
+If the number of array1 element are n1 and number of elements in array2 are n2 
+Time Complexity : O(n1logn + n2logn) to O(n1+n2) 
+Space Complexity : O(n1+n2) + O(n1+n2)    // for storing + for returning 
